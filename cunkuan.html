@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>存款计算器</title>
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="images/logo.ico">
+
+</head>
+<body>
+<div class="container" style="color:#2494E8">
+    <img src="images/title.png" class="img-responsive center-block" width="18%">
+    <div class="form-group">
+        <strong>存款金额</strong><input type="text" class="form-control" placeholder="请输入金额"></br>
+
+        <div>  <strong>存款年限</strong>
+            <select class="form-control">
+                <option>一年</option>
+                <option>两年</option>
+                <option>三年</option>
+                <option>四年</option>
+            </select>
+        </div>
+    </div>
+    <div>
+      <strong>所得利息</strong> <input type="text" class="form-control" readonly></br>
+
+        <strong>本息合计</strong> <input type="text" class="form-control" readonly></br>
+    </div>
+    <input type="submit" value="计算" class="btn btn-danger btn-xs btn-block">
+        <h5 class="text-center"><small>开发者：中北大学软件学院 李萍</small></h5>
+</div>
+</body>
+</html>
